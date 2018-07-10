@@ -1,11 +1,7 @@
-const path = require('path');
+const merge = require('webpack-merge');
+const baseWebpackConfig = require('./webpack.base.conf');
 
-module.exports = {
-  entry: './src/index.js',
+module.exports = merge(baseWebpackConfig, {
   mode: 'development',
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-  },
   devtool: 'eval-source-map',
-};
+});

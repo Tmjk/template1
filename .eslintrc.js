@@ -20,5 +20,8 @@ module.exports = {
         allowSamePrecedence: true,
       },
     ],
+    'import/no-extraneous-dependencies': ["error", {
+      "devDependencies": ['*.conf.js']
+    }],
   }
 }
