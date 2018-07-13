@@ -17,6 +17,6 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "webpack-serve --config webpack.dev.conf.js",
-    "prod": "webpack --config webpack.prod.conf.js --watch"
+    "prod": "webpack --config webpack.prod.conf.js"
   }
 }
