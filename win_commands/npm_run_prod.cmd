@@ -1,3 +1,3 @@
 cd ..
-npm run prod
+call npm run prod
 pause

@@ -1,3 +1,3 @@
 cd ..
-http-server
+call http-server -o
 pause
