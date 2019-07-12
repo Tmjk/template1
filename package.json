@@ -19,5 +19,9 @@
     "start": "npm run dev",
     "dev": "webpack-dev-server --config webpack.dev.conf.js",
     "prod": "webpack --config webpack.prod.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tmjk/webpack-template.git"
   }
 }
