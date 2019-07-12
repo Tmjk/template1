@@ -8,6 +8,9 @@ module.exports = {
   ],
   settings: {
     'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
       webpack: {
         config: 'webpack.dev.conf.js',
       }
@@ -21,7 +24,7 @@ module.exports = {
       },
     ],
     'import/no-extraneous-dependencies': ["error", {
-      "devDependencies": ['*.conf.js']
+      devDependencies: ['*.conf.js']
     }],
   }
 }
